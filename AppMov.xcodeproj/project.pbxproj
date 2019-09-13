@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF2364EE232A807C000AC3BF /* appmov.db in Resources */ = {isa = PBXBuildFile; fileRef = CF2364ED232A807B000AC3BF /* appmov.db */; };
+		CF2364F2232A9C6D000AC3BF /* movieDown.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2364F1232A9C6D000AC3BF /* movieDown.m */; };
+		CF2364FB232BEF03000AC3BF /* DBMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2364FA232BEF03000AC3BF /* DBMovie.m */; };
+		CF2364FE232BF213000AC3BF /* genreDown.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2364FD232BF213000AC3BF /* genreDown.m */; };
+		CF236501232C1440000AC3BF /* DBGenre.m in Sources */ = {isa = PBXBuildFile; fileRef = CF236500232C1440000AC3BF /* DBGenre.m */; };
+		CF822A902329C94400F4F1A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF822A8F2329C94400F4F1A7 /* AppDelegate.m */; };
+		CF822A992329C94400F4F1A7 /* AppMov.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF822A972329C94400F4F1A7 /* AppMov.xcdatamodeld */; };
+		CF822A9B2329C95300F4F1A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF822A9A2329C95300F4F1A7 /* Assets.xcassets */; };
+		CF822AA12329C95400F4F1A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF822AA02329C95400F4F1A7 /* main.m */; };
+		CF822AAB2329CB4D00F4F1A7 /* menuTabVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CF822AAA2329CB4D00F4F1A7 /* menuTabVC.m */; };
+		CF822AAD2329CB5900F4F1A7 /* menuTabVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF822AAC2329CB5900F4F1A7 /* menuTabVC.xib */; };
+		CF822AAF2329CCE200F4F1A7 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CF822AAE2329CCE200F4F1A7 /* libsqlite3.0.tbd */; };
+		CF822AB62329D40000F4F1A7 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CF822AB52329D40000F4F1A7 /* DBManager.m */; };
+		CF822ABA2329D63000F4F1A7 /* notesTVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF822AB82329D63000F4F1A7 /* notesTVCell.m */; };
+		CF822ABF2329D6FC00F4F1A7 /* notesTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF822ABE2329D6FC00F4F1A7 /* notesTVCell.xib */; };
+		CF822AC22329E46700F4F1A7 /* DBNote.m in Sources */ = {isa = PBXBuildFile; fileRef = CF822AC12329E46700F4F1A7 /* DBNote.m */; };
+		CFDC7321232C299C00356488 /* movCVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDC731F232C299C00356488 /* movCVCell.m */; };
+		CFDC7322232C299C00356488 /* movCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFDC7320232C299C00356488 /* movCVCell.xib */; };
+		CFDC7324232C2DE000356488 /* noImg.png in Resources */ = {isa = PBXBuildFile; fileRef = CFDC7323232C2DDF00356488 /* noImg.png */; };
+		CFDC7327232C4FA100356488 /* movie_poster.png in Resources */ = {isa = PBXBuildFile; fileRef = CFDC7325232C4FA000356488 /* movie_poster.png */; };
+		CFDC7328232C4FA100356488 /* notes.png in Resources */ = {isa = PBXBuildFile; fileRef = CFDC7326232C4FA100356488 /* notes.png */; };
+		F3AE12B935904992D6A79789 /* Pods_AppMov.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77770C52D09E02607C3DA1C8 /* Pods_AppMov.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1BD0D70CC1E281E5BD4016CE /* Pods-AppMov.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppMov.release.xcconfig"; path = "Target Support Files/Pods-AppMov/Pods-AppMov.release.xcconfig"; sourceTree = "<group>"; };
+		592C408F7EEE26EB99C91A1C /* Pods-AppMov.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppMov.debug.xcconfig"; path = "Target Support Files/Pods-AppMov/Pods-AppMov.debug.xcconfig"; sourceTree = "<group>"; };
+		77770C52D09E02607C3DA1C8 /* Pods_AppMov.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppMov.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF2364ED232A807B000AC3BF /* appmov.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = appmov.db; sourceTree = "<group>"; };
+		CF2364F0232A9C6D000AC3BF /* movieDown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = movieDown.h; sourceTree = "<group>"; };
+		CF2364F1232A9C6D000AC3BF /* movieDown.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = movieDown.m; sourceTree = "<group>"; };
+		CF2364F9232BEF03000AC3BF /* DBMovie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBMovie.h; sourceTree = "<group>"; };
+		CF2364FA232BEF03000AC3BF /* DBMovie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBMovie.m; sourceTree = "<group>"; };
+		CF2364FC232BF213000AC3BF /* genreDown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = genreDown.h; sourceTree = "<group>"; };
+		CF2364FD232BF213000AC3BF /* genreDown.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = genreDown.m; sourceTree = "<group>"; };
+		CF2364FF232C1440000AC3BF /* DBGenre.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBGenre.h; sourceTree = "<group>"; };
+		CF236500232C1440000AC3BF /* DBGenre.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBGenre.m; sourceTree = "<group>"; };
+		CF822A8B2329C94400F4F1A7 /* AppMov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppMov.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF822A8E2329C94400F4F1A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF822A8F2329C94400F4F1A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF822A982329C94400F4F1A7 /* AppMov.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AppMov.xcdatamodel; sourceTree = "<group>"; };
+		CF822A9A2329C95300F4F1A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF822A9F2329C95400F4F1A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF822AA02329C95400F4F1A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF822AA92329CB4D00F4F1A7 /* menuTabVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = menuTabVC.h; sourceTree = "<group>"; };
+		CF822AAA2329CB4D00F4F1A7 /* menuTabVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = menuTabVC.m; sourceTree = "<group>"; };
+		CF822AAC2329CB5900F4F1A7 /* menuTabVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = menuTabVC.xib; sourceTree = "<group>"; };
+		CF822AAE2329CCE200F4F1A7 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		CF822AB42329D40000F4F1A7 /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		CF822AB52329D40000F4F1A7 /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		CF822AB72329D63000F4F1A7 /* notesTVCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = notesTVCell.h; sourceTree = "<group>"; };
+		CF822AB82329D63000F4F1A7 /* notesTVCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = notesTVCell.m; sourceTree = "<group>"; };
+		CF822ABE2329D6FC00F4F1A7 /* notesTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = notesTVCell.xib; sourceTree = SOURCE_ROOT; };
+		CF822AC02329E46700F4F1A7 /* DBNote.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBNote.h; sourceTree = "<group>"; };
+		CF822AC12329E46700F4F1A7 /* DBNote.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBNote.m; sourceTree = "<group>"; };
+		CFDC731E232C299C00356488 /* movCVCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = movCVCell.h; sourceTree = "<group>"; };
+		CFDC731F232C299C00356488 /* movCVCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = movCVCell.m; sourceTree = "<group>"; };
+		CFDC7320232C299C00356488 /* movCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = movCVCell.xib; sourceTree = "<group>"; };
+		CFDC7323232C2DDF00356488 /* noImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noImg.png; sourceTree = "<group>"; };
+		CFDC7325232C4FA000356488 /* movie_poster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movie_poster.png; sourceTree = "<group>"; };
+		CFDC7326232C4FA100356488 /* notes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notes.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF822A882329C94400F4F1A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF822AAF2329CCE200F4F1A7 /* libsqlite3.0.tbd in Frameworks */,
+				F3AE12B935904992D6A79789 /* Pods_AppMov.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13B3259A67556F691898947B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF822AAE2329CCE200F4F1A7 /* libsqlite3.0.tbd */,
+				77770C52D09E02607C3DA1C8 /* Pods_AppMov.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C7B46C0A2904DFDFAE6B236 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				592C408F7EEE26EB99C91A1C /* Pods-AppMov.debug.xcconfig */,
+				1BD0D70CC1E281E5BD4016CE /* Pods-AppMov.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CF2364EF232A9C2D000AC3BF /* downloader */ = {
+			isa = PBXGroup;
+			children = (
+				CF2364F0232A9C6D000AC3BF /* movieDown.h */,
+				CF2364F1232A9C6D000AC3BF /* movieDown.m */,
+				CF2364FC232BF213000AC3BF /* genreDown.h */,
+				CF2364FD232BF213000AC3BF /* genreDown.m */,
+			);
+			path = downloader;
+			sourceTree = "<group>";
+		};
+		CF822A822329C94400F4F1A7 = {
+			isa = PBXGroup;
+			children = (
+				CF822A8D2329C94400F4F1A7 /* AppMov */,
+				CF822A8C2329C94400F4F1A7 /* Products */,
+				4C7B46C0A2904DFDFAE6B236 /* Pods */,
+				13B3259A67556F691898947B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF822A8C2329C94400F4F1A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF822A8B2329C94400F4F1A7 /* AppMov.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF822A8D2329C94400F4F1A7 /* AppMov */ = {
+			isa = PBXGroup;
+			children = (
+				CF822AA82329CB2A00F4F1A7 /* src */,
+				CF822AA72329CB1E00F4F1A7 /* view */,
+				CF822A8E2329C94400F4F1A7 /* AppDelegate.h */,
+				CF822A8F2329C94400F4F1A7 /* AppDelegate.m */,
+				CF822A9A2329C95300F4F1A7 /* Assets.xcassets */,
+				CF822A9F2329C95400F4F1A7 /* Info.plist */,
+				CF822AA02329C95400F4F1A7 /* main.m */,
+				CF822A972329C94400F4F1A7 /* AppMov.xcdatamodeld */,
+			);
+			path = AppMov;
+			sourceTree = "<group>";
+		};
+		CF822AA72329CB1E00F4F1A7 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				CFDC7325232C4FA000356488 /* movie_poster.png */,
+				CFDC7326232C4FA100356488 /* notes.png */,
+				CFDC7323232C2DDF00356488 /* noImg.png */,
+				CFDC7320232C299C00356488 /* movCVCell.xib */,
+				CF822ABE2329D6FC00F4F1A7 /* notesTVCell.xib */,
+				CF822AAC2329CB5900F4F1A7 /* menuTabVC.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		CF822AA82329CB2A00F4F1A7 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				CF2364EF232A9C2D000AC3BF /* downloader */,
+				CF822AB02329D13100F4F1A7 /* DB */,
+				CF822AA92329CB4D00F4F1A7 /* menuTabVC.h */,
+				CF822AAA2329CB4D00F4F1A7 /* menuTabVC.m */,
+				CF822AB72329D63000F4F1A7 /* notesTVCell.h */,
+				CF822AB82329D63000F4F1A7 /* notesTVCell.m */,
+				CF2364ED232A807B000AC3BF /* appmov.db */,
+				CFDC731E232C299C00356488 /* movCVCell.h */,
+				CFDC731F232C299C00356488 /* movCVCell.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		CF822AB02329D13100F4F1A7 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				CF822AB42329D40000F4F1A7 /* DBManager.h */,
+				CF822AB52329D40000F4F1A7 /* DBManager.m */,
+				CF822AC02329E46700F4F1A7 /* DBNote.h */,
+				CF822AC12329E46700F4F1A7 /* DBNote.m */,
+				CF2364F9232BEF03000AC3BF /* DBMovie.h */,
+				CF2364FA232BEF03000AC3BF /* DBMovie.m */,
+				CF2364FF232C1440000AC3BF /* DBGenre.h */,
+				CF236500232C1440000AC3BF /* DBGenre.m */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF822A8A2329C94400F4F1A7 /* AppMov */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF822AA42329C95400F4F1A7 /* Build configuration list for PBXNativeTarget "AppMov" */;
+			buildPhases = (
+				A469431A1DEBBCF1C9A4FBFB /* [CP] Check Pods Manifest.lock */,
+				CF822A872329C94400F4F1A7 /* Sources */,
+				CF822A882329C94400F4F1A7 /* Frameworks */,
+				CF822A892329C94400F4F1A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppMov;
+			productName = AppMov;
+			productReference = CF822A8B2329C94400F4F1A7 /* AppMov.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF822A832329C94400F4F1A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Nuts;
+				TargetAttributes = {
+					CF822A8A2329C94400F4F1A7 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = CF822A862329C94400F4F1A7 /* Build configuration list for PBXProject "AppMov" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF822A822329C94400F4F1A7;
+			productRefGroup = CF822A8C2329C94400F4F1A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF822A8A2329C94400F4F1A7 /* AppMov */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF822A892329C94400F4F1A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDC7324232C2DE000356488 /* noImg.png in Resources */,
+				CF2364EE232A807C000AC3BF /* appmov.db in Resources */,
+				CF822A9B2329C95300F4F1A7 /* Assets.xcassets in Resources */,
+				CFDC7327232C4FA100356488 /* movie_poster.png in Resources */,
+				CFDC7322232C299C00356488 /* movCVCell.xib in Resources */,
+				CFDC7328232C4FA100356488 /* notes.png in Resources */,
+				CF822ABF2329D6FC00F4F1A7 /* notesTVCell.xib in Resources */,
+				CF822AAD2329CB5900F4F1A7 /* menuTabVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A469431A1DEBBCF1C9A4FBFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppMov-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF822A872329C94400F4F1A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF822A992329C94400F4F1A7 /* AppMov.xcdatamodeld in Sources */,
+				CF822ABA2329D63000F4F1A7 /* notesTVCell.m in Sources */,
+				CF2364F2232A9C6D000AC3BF /* movieDown.m in Sources */,
+				CF2364FE232BF213000AC3BF /* genreDown.m in Sources */,
+				CF2364FB232BEF03000AC3BF /* DBMovie.m in Sources */,
+				CFDC7321232C299C00356488 /* movCVCell.m in Sources */,
+				CF822AA12329C95400F4F1A7 /* main.m in Sources */,
+				CF236501232C1440000AC3BF /* DBGenre.m in Sources */,
+				CF822A902329C94400F4F1A7 /* AppDelegate.m in Sources */,
+				CF822AAB2329CB4D00F4F1A7 /* menuTabVC.m in Sources */,
+				CF822AC22329E46700F4F1A7 /* DBNote.m in Sources */,
+				CF822AB62329D40000F4F1A7 /* DBManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CF822AA22329C95400F4F1A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF822AA32329C95400F4F1A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF822AA52329C95400F4F1A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 592C408F7EEE26EB99C91A1C /* Pods-AppMov.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67K8W6WRGX;
+				INFOPLIST_FILE = AppMov/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chc.AppMov;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CF822AA62329C95400F4F1A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BD0D70CC1E281E5BD4016CE /* Pods-AppMov.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67K8W6WRGX;
+				INFOPLIST_FILE = AppMov/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chc.AppMov;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF822A862329C94400F4F1A7 /* Build configuration list for PBXProject "AppMov" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF822AA22329C95400F4F1A7 /* Debug */,
+				CF822AA32329C95400F4F1A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF822AA42329C95400F4F1A7 /* Build configuration list for PBXNativeTarget "AppMov" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF822AA52329C95400F4F1A7 /* Debug */,
+				CF822AA62329C95400F4F1A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CF822A972329C94400F4F1A7 /* AppMov.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CF822A982329C94400F4F1A7 /* AppMov.xcdatamodel */,
+			);
+			currentVersion = CF822A982329C94400F4F1A7 /* AppMov.xcdatamodel */;
+			path = AppMov.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CF822A832329C94400F4F1A7 /* Project object */;
+}

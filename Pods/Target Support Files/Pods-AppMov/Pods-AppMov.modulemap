@@ -1,0 +1,6 @@
+framework module Pods_AppMov {
+  umbrella header "Pods-AppMov-umbrella.h"
+
+  export *
+  module * { export * }
+}
