@@ -258,10 +258,10 @@
       [self execQuery:queryGen];
       queryGen = [NSMutableString stringWithFormat:@"INSERT OR REPLACE INTO films_genres (film_id, genre_id) VALUES"];
     }
-    
+     NSString *originTitle = [[dic valueForKey:@"original_title"] stringByReplacingOccurrencesOfString:@"'" withString:@" "];
     [query appendString:[NSString stringWithFormat:@" ('%@', '%@', '%@', '%@'),",
                          [dic valueForKey:@"id"],
-                         [dic valueForKey:@"original_title"],
+                         originTitle,
                          [dic valueForKey:@"poster_path"],
                          [dic valueForKey:@"release_date"]]];
     for (NSMutableArray *arr in [dic valueForKey:@"genre_ids"]) {

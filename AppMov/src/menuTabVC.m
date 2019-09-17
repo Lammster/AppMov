@@ -164,16 +164,23 @@ static NSString * const reuseId = @"movCVCell";
   [_overlayView release];
   [_ContentNotView release];
   [_tabBar release];
+  [_filmBtn release];
+  [_noteBtn release];
   [super dealloc];
 }
-- (IBAction)filmBtn:(id)sender {
+- (IBAction)filmClicked:(id)sender {
   [self.movieCV setHidden:NO];
   [self.ContentNotView setHidden:YES];
+  [self.filmBtn setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+  [self.noteBtn setTitleColor:[UIColor darkGrayColor] forState:UIControlStateNormal];
+  
 }
 
-- (IBAction)noteBtn:(id)sender {
+- (IBAction)noteClicked:(id)sender {
   [self.movieCV setHidden:YES];
   [self.ContentNotView setHidden:NO];
+  [self.filmBtn setTitleColor:[UIColor darkGrayColor] forState:UIControlStateNormal];
+  [self.noteBtn setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
 }
 
 - (IBAction)addNoteClicked:(id)sender {

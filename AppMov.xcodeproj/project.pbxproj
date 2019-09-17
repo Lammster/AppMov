@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65F47446789391A000EDE116 /* Pods_AppMov.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7BAEC042351F2BC86D2AB8 /* Pods_AppMov.framework */; };
 		CF2364EE232A807C000AC3BF /* appmov.db in Resources */ = {isa = PBXBuildFile; fileRef = CF2364ED232A807B000AC3BF /* appmov.db */; };
 		CF2364F2232A9C6D000AC3BF /* movieDown.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2364F1232A9C6D000AC3BF /* movieDown.m */; };
 		CF2364FB232BEF03000AC3BF /* DBMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2364FA232BEF03000AC3BF /* DBMovie.m */; };
@@ -23,18 +24,17 @@
 		CF822ABA2329D63000F4F1A7 /* notesTVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF822AB82329D63000F4F1A7 /* notesTVCell.m */; };
 		CF822ABF2329D6FC00F4F1A7 /* notesTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF822ABE2329D6FC00F4F1A7 /* notesTVCell.xib */; };
 		CF822AC22329E46700F4F1A7 /* DBNote.m in Sources */ = {isa = PBXBuildFile; fileRef = CF822AC12329E46700F4F1A7 /* DBNote.m */; };
+		CFC633BF23313C280049CDE5 /* 120.png in Resources */ = {isa = PBXBuildFile; fileRef = CFC633BE23313C280049CDE5 /* 120.png */; };
 		CFDC7321232C299C00356488 /* movCVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDC731F232C299C00356488 /* movCVCell.m */; };
 		CFDC7322232C299C00356488 /* movCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFDC7320232C299C00356488 /* movCVCell.xib */; };
 		CFDC7324232C2DE000356488 /* noImg.png in Resources */ = {isa = PBXBuildFile; fileRef = CFDC7323232C2DDF00356488 /* noImg.png */; };
 		CFDC7327232C4FA100356488 /* movie_poster.png in Resources */ = {isa = PBXBuildFile; fileRef = CFDC7325232C4FA000356488 /* movie_poster.png */; };
 		CFDC7328232C4FA100356488 /* notes.png in Resources */ = {isa = PBXBuildFile; fileRef = CFDC7326232C4FA100356488 /* notes.png */; };
-		F3AE12B935904992D6A79789 /* Pods_AppMov.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77770C52D09E02607C3DA1C8 /* Pods_AppMov.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1BD0D70CC1E281E5BD4016CE /* Pods-AppMov.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppMov.release.xcconfig"; path = "Target Support Files/Pods-AppMov/Pods-AppMov.release.xcconfig"; sourceTree = "<group>"; };
-		592C408F7EEE26EB99C91A1C /* Pods-AppMov.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppMov.debug.xcconfig"; path = "Target Support Files/Pods-AppMov/Pods-AppMov.debug.xcconfig"; sourceTree = "<group>"; };
-		77770C52D09E02607C3DA1C8 /* Pods_AppMov.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppMov.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		395BA1B6B283013727C45B54 /* Pods-AppMov.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppMov.debug.xcconfig"; path = "Target Support Files/Pods-AppMov/Pods-AppMov.debug.xcconfig"; sourceTree = "<group>"; };
+		5F7BAEC042351F2BC86D2AB8 /* Pods_AppMov.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppMov.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF2364ED232A807B000AC3BF /* appmov.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = appmov.db; sourceTree = "<group>"; };
 		CF2364F0232A9C6D000AC3BF /* movieDown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = movieDown.h; sourceTree = "<group>"; };
 		CF2364F1232A9C6D000AC3BF /* movieDown.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = movieDown.m; sourceTree = "<group>"; };
@@ -62,12 +62,14 @@
 		CF822ABE2329D6FC00F4F1A7 /* notesTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = notesTVCell.xib; sourceTree = SOURCE_ROOT; };
 		CF822AC02329E46700F4F1A7 /* DBNote.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBNote.h; sourceTree = "<group>"; };
 		CF822AC12329E46700F4F1A7 /* DBNote.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBNote.m; sourceTree = "<group>"; };
+		CFC633BE23313C280049CDE5 /* 120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120.png; sourceTree = "<group>"; };
 		CFDC731E232C299C00356488 /* movCVCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = movCVCell.h; sourceTree = "<group>"; };
 		CFDC731F232C299C00356488 /* movCVCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = movCVCell.m; sourceTree = "<group>"; };
 		CFDC7320232C299C00356488 /* movCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = movCVCell.xib; sourceTree = "<group>"; };
 		CFDC7323232C2DDF00356488 /* noImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noImg.png; sourceTree = "<group>"; };
 		CFDC7325232C4FA000356488 /* movie_poster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movie_poster.png; sourceTree = "<group>"; };
 		CFDC7326232C4FA100356488 /* notes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notes.png; sourceTree = "<group>"; };
+		DC9EEF18BD600BB4E53612A7 /* Pods-AppMov.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppMov.release.xcconfig"; path = "Target Support Files/Pods-AppMov/Pods-AppMov.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +78,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF822AAF2329CCE200F4F1A7 /* libsqlite3.0.tbd in Frameworks */,
-				F3AE12B935904992D6A79789 /* Pods_AppMov.framework in Frameworks */,
+				65F47446789391A000EDE116 /* Pods_AppMov.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,7 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				CF822AAE2329CCE200F4F1A7 /* libsqlite3.0.tbd */,
-				77770C52D09E02607C3DA1C8 /* Pods_AppMov.framework */,
+				5F7BAEC042351F2BC86D2AB8 /* Pods_AppMov.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -95,8 +97,8 @@
 		4C7B46C0A2904DFDFAE6B236 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				592C408F7EEE26EB99C91A1C /* Pods-AppMov.debug.xcconfig */,
-				1BD0D70CC1E281E5BD4016CE /* Pods-AppMov.release.xcconfig */,
+				395BA1B6B283013727C45B54 /* Pods-AppMov.debug.xcconfig */,
+				DC9EEF18BD600BB4E53612A7 /* Pods-AppMov.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -133,6 +135,7 @@
 		CF822A8D2329C94400F4F1A7 /* AppMov */ = {
 			isa = PBXGroup;
 			children = (
+				CFC633BD23313C0B0049CDE5 /* ico */,
 				CF822AA82329CB2A00F4F1A7 /* src */,
 				CF822AA72329CB1E00F4F1A7 /* view */,
 				CF822A8E2329C94400F4F1A7 /* AppDelegate.h */,
@@ -189,6 +192,14 @@
 			path = DB;
 			sourceTree = "<group>";
 		};
+		CFC633BD23313C0B0049CDE5 /* ico */ = {
+			isa = PBXGroup;
+			children = (
+				CFC633BE23313C280049CDE5 /* 120.png */,
+			);
+			path = ico;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -196,7 +207,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF822AA42329C95400F4F1A7 /* Build configuration list for PBXNativeTarget "AppMov" */;
 			buildPhases = (
-				A469431A1DEBBCF1C9A4FBFB /* [CP] Check Pods Manifest.lock */,
+				0468AC461635D159DA833C30 /* [CP] Check Pods Manifest.lock */,
 				CF822A872329C94400F4F1A7 /* Sources */,
 				CF822A882329C94400F4F1A7 /* Frameworks */,
 				CF822A892329C94400F4F1A7 /* Resources */,
@@ -250,6 +261,7 @@
 				CFDC7324232C2DE000356488 /* noImg.png in Resources */,
 				CF2364EE232A807C000AC3BF /* appmov.db in Resources */,
 				CF822A9B2329C95300F4F1A7 /* Assets.xcassets in Resources */,
+				CFC633BF23313C280049CDE5 /* 120.png in Resources */,
 				CFDC7327232C4FA100356488 /* movie_poster.png in Resources */,
 				CFDC7322232C299C00356488 /* movCVCell.xib in Resources */,
 				CFDC7328232C4FA100356488 /* notes.png in Resources */,
@@ -261,7 +273,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		A469431A1DEBBCF1C9A4FBFB /* [CP] Check Pods Manifest.lock */ = {
+		0468AC461635D159DA833C30 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -422,7 +434,7 @@
 		};
 		CF822AA52329C95400F4F1A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 592C408F7EEE26EB99C91A1C /* Pods-AppMov.debug.xcconfig */;
+			baseConfigurationReference = 395BA1B6B283013727C45B54 /* Pods-AppMov.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -433,7 +445,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.chc.AppMov;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nuts.AppMov;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -441,7 +453,7 @@
 		};
 		CF822AA62329C95400F4F1A7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1BD0D70CC1E281E5BD4016CE /* Pods-AppMov.release.xcconfig */;
+			baseConfigurationReference = DC9EEF18BD600BB4E53612A7 /* Pods-AppMov.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,7 +464,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.chc.AppMov;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nuts.AppMov;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
